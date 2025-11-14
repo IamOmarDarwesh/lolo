@@ -1,38 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+    <title>My GitHub Profile</title>
     <style>
-        /* Simple custom styles, optional */
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
+            line-height: 1.6;
         }
-        h1 {
-            font-size: 2rem;
+
+        h1, h2, h3 {
+            color: #333;
         }
+
+        p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
         .content {
             margin-top: 20px;
         }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+        }
     </style>
 </head>
+
 <body>
-    <!-- Your content starts here -->
-    <div class="content">
-        <h2>Hi there 👋</h2>
+
+    <div class="section">
+        <h1>Hi there 👋,</h1>
         <p>Let me introduce myself.</p>
-        <p>I'm Omar Darwesh, a Computer Science postgraduate with an analytical mindset...</p>
+        <p>I'm Omar Darwesh. I'm a Computer Science postgraduate with an analytical mindset and enthusiasm for <strong>Data Analysis</strong>, <strong>Analytics Engineering</strong>, and <strong>Data Engineering</strong>.</p>
+    </div>
 
-        <h3>Technical Experience</h3>
-        <p>Details about your work experience...</p>
+    <div class="section">
+        <h2>Technical Experience</h2>
 
-        <!-- Add other sections here as needed -->
+        <div class="content">
+            <h3><strong>Data Science Trainee</strong><br>
+                <small>at ALX Africa, Egypt</small><br>
+                <small><em>Duration: 1.5 years</em></small>
+            </h3>
+            <img src="assets/imgs-experiences/alx-africa.jpg" alt="ALX Africa Logo">
+            <ul>
+                <li>Worked on multiple assignments with tight deadlines.</li>
+                <li>Gained expertise in <strong>SQL</strong>, <strong>Python</strong>, <strong>Power BI</strong>, and other key data analysis tools.</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h3><strong>Data Analysis Trainee</strong><br>
+                <small>at Information Technology Institute (ITI), Ministry of Communication and Information Technology (MCIT), Egypt</small><br>
+                <small><em>Duration: 5 months</em></small>
+            </h3>
+            <img src="assets/imgs-experiences/ITI.png" alt="ITI Logo">
+            <ul>
+                <li>Acquired advanced skills in <strong>data cleaning</strong>, <strong>data analysis</strong>, <strong>visualization</strong>, and <strong>reporting</strong>.</li>
+                <li>Worked with a variety of tools such as <strong>SQL</strong>, <strong>Excel</strong>, <strong>Python</strong>, <strong>Power BI</strong>, <strong>Tableau</strong>, and more.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Tools & Technologies</h2>
+
+        <p>I used various tools like **Excel**, **SQL**, **Python**, **Google Sheets** for exploring and cleaning data in files like CSVs and databases like Microsoft SQL Server & MySQL.</p>
+
+        <div>
+            <a href="https://www.microsoft.com/microsoft-365/excel">
+                <img src="assets/imgs-tools&technologies/excel.png" alt="Excel">
+            </a>
+            <a href="https://www.w3schools.com/sql/">
+                <img src="assets/imgs-tools&technologies/sql-database-generic.svg" alt="SQL">
+            </a>
+            <a href="https://www.python.org/">
+                <img src="assets/imgs-tools&technologies/Python.svg" alt="Python">
+            </a>
+            <a href="https://www.google.com/sheets/about/">
+                <img src="assets/imgs-tools&technologies/google-sheets.png" alt="Google Sheets">
+            </a>
+        </div>
+
+        <p>I also worked with tools like **Figma**, **PowerPoint**, and **draw.io** for dashboard design and prototyping.</p>
+
+        <div>
+            <a href="https://www.figma.com/">
+                <img src="assets/imgs-tools&technologies/figma.png" alt="Figma">
+            </a>
+            <a href="https://www.microsoft.com/microsoft-365/powerpoint">
+                <img src="assets/imgs-tools&technologies/powerpoint.png" alt="PowerPoint">
+            </a>
+            <a href="https://www.diagrams.net/">
+                <img src="assets/imgs-tools&technologies/draw-io.svg" alt="draw.io">
+            </a>
+        </div>
+
+        <p>Additionally, I created data visualizations using **Power BI**, **Tableau**, **Looker Studio**, and **Python**.</p>
+
+        <div>
+            <a href="https://powerbi.microsoft.com/">
+                <img src="assets/imgs-tools&technologies/ms-power-bi.svg" alt="Power BI">
+            </a>
+            <a href="https://www.tableau.com/">
+                <img src="assets/imgs-tools&technologies/Tableau.svg" alt="Tableau">
+            </a>
+            <a href="https://lookerstudio.google.com/">
+                <img src="assets/imgs-tools&technologies/google-looker-studio.png" alt="Looker Studio">
+            </a>
+            <a href="https://www.python.org/">
+                <img src="assets/imgs-tools&technologies/Python.svg" alt="Python">
+            </a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Projects</h2>
+
+        <div class="content">
+            <h3><strong>Call Center Performance Analytics Dashboard</strong><br>
+                <em>Turning call center data into smarter decisions and happier customers.</em>
+            </h3>
+            <p><strong>Tools used:</strong> Power BI | DAX | Excel | Figma</p>
+            <ul>
+                <li>Defined KPIs to guide strategic growth and optimize performance.</li>
+                <li>Developed interactive Power BI dashboard to optimize call center performance.</li>
+                <li>Made data-driven decisions to improve efficiency and customer satisfaction.</li>
+            </ul>
+            <p><a href="https://github.com/IamOmarDarwesh/Call-Center-Performance-Analytics-Dashboard">View Full Project</a></p>
+        </div>
+
+        <div class="content">
+            <h3><strong>Modern SQL Data Warehouse Building & Analytics</strong><br>
+                <em>Building a scalable data foundation for smarter analytics and reliable insights.</em>
+            </h3>
+            <p><strong>Tools used:</strong> SQL Server | SSMS | Draw.io | Notion | GitHub</p>
+            <ul>
+                <li>Designed data warehouse architecture and implemented ETL pipelines.</li>
+                <li>Developed SQL-based analytics for insights into sales and customer behavior.</li>
+            </ul>
+            <p><a href="https://github.com/IamOmarDarwesh/Modern-SQL-Data-Warehouse-Building-Analytics">View Full Project</a></p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Certifications</h2>
+
+        <div class="content">
+            <h3>Microsoft Certified: Power BI Data Analyst</h3>
+            <p><a href="https://learn.microsoft.com/en-us/users/iamomardarwesh/credentials/40ec254c1199ceed">View Credential</a></p>
+            <img src="assets/imgs-Certifications/PL-300-Microsoft-Power-BI-Data-Analyst-certificate.png" alt="Power BI Certification">
+        </div>
+
+        <div class="content">
+            <h3>Microsoft Certified: Azure Data Fundamentals</h3>
+            <p><a href="https://learn.microsoft.com/en-us/users/iamomardarwesh/credentials/c10953d4ba96486c">View Credential</a></p>
+            <img src="assets/imgs-Certifications/DP-900-Microsoft-Azure-Data-Fundamentals-certificate.png" alt="Azure Certification">
+        </div>
     </div>
 
     <footer>
-        <p>Thank you for visiting my profile!</p>
+        <p>Thanks for visiting my Profile!</p>
+        <p>Connect with me:</p>
+        <div>
+            <a href="https://github.com/IamOmarDarwesh">GitHub</a> | 
+            <a href="https://www.linkedin.com/in/iamomardarwesh/">LinkedIn</a> | 
+            <a href="mailto:omarelsayeddarwesh@gmail.com">Gmail</a> | 
+            <a href="https://wa.me/201002949020">WhatsApp</a>
+        </div>
     </footer>
+
 </body>
+
 </html>
